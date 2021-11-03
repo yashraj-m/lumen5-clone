@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    margin-top: 2%;
+}
+.logo img{
+    margin-top: -20px;
+    width: 120px;
+    max-height: 88px;
+}
+
+
+ul li{
+    display: inline-block;
+    justify-content: space-around;
+    width: 55%;
+    list-style: none;
+    margin-top: 30px
+}
+
+li button{
+    margin-top: -7px !important;
+}
+
+.nav-links a{
+    color: rgba(0, 0, 0, 0.781);
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width: 960px) {
+    span{
+        display: block;
+    }
+    
+  ul{
+      display: none;
+  }
+
+    ul li{
+        display: block;
+    }
+}
