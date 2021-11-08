@@ -4,7 +4,9 @@ nav{
     align-items: center;    
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    background-color: #FAFAFB;
+}
 .logo{
     margin-top: 2%;
 }
@@ -37,6 +39,10 @@ li{
     
 }
 
+li a:hover{
+    color:black;
+}
+
 
 span{
     margin: 0 20px;
@@ -60,4 +66,24 @@ span{
     }
 }
 
+.drop-down-menu {
+    display: none;
+}
 
+
+
+.nav-links li:hover .drop-down-menu ul{
+    list-style-type: none;
+    display: block;
+    width: 240px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.nav-links li:hover .drop-down-menu ul li{
+    margin-top: 5px;
+}
+
+.nav-links li:hover .drop-down-menu ul li:hover{
+    background-color: rgb(250, 250, 252, 1);
+}
