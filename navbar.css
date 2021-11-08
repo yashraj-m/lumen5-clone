@@ -25,7 +25,22 @@ ul {
 
 li button{
     margin-top: -7px !important;
+    color: white !important;
 }
+
+#btn1 {
+    color: blue !important ;
+}
+
+#btn2 {
+    color: white !important;
+}
+
+#btn1:hover , #btn2:hover{
+    color: white !important;
+}
+
+
 
 li{
     list-style: none;
