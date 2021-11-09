@@ -7,6 +7,7 @@
     <title>Lumen5 - Video Maker | Create Videos Online in Minutes </title>
     <link rel="icon" type="image/png" href="https://storage.googleapis.com/lumen5-site-images/favicon/favicon.ico">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,21 +15,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <nav id="navbar"></nav>
+    <div class="main">
+        <nav id="navbar"></nav>
 
-    <div class="container-fluid">
-        <div class="col-sm-12 col-md-6">
-            <span class="font-15 font-15">
-                "Video maker built to "
-                <br>
-                " Supercharge your "
-                <br>
-                " content strategy"
-            </span>
+        <div class="lumen_intro background_gray">
+
+            <div class="inner_first">
+                <h3 class="heading">Video maker build to supercharge your content strategy</h3>
+                <p class="description">Easily make videos for <b class="innerbold">content marketing, thought leadership,</b> and <b class="innerbold">brand awareness</b> in a snap.</p>
+                <a href="./signup.html"><button id="sign_up_button" class="pointer1" style="outline: none; border: none;">Sign up free</button></a>
+            </div>
+
+            <div class="inner_second" id="lumen_intro_img">
+                <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png"  alt="Lumen Intro" class="intro_img pointer1">
+
+            </div>
+
+
+            <div id="light" >
+                <video id="VisaChipCardVideo" width="600" style="border-radius: 10px;" controls>
+                    <source src="https://storage.googleapis.com/lumen5-site-images/website-assets/product-tour-header.mp4" type="video/mp4">
+                    <!--Browser does not support <video> tag -->
+                </video>
+            </div>
+
+            <div id="fade" onclick="lightbox_close()"></div>
+
         </div>
-
-
-    </div>
+    </div>    
 </body>
 </html>
 

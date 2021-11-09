@@ -45,9 +45,35 @@ dropdown.addEventListener("click", () => {
 
 
 
-
-
 window.onresize = function(event) {
   document.location.reload(true);
 }
 
+
+
+
+document.getElementById("lumen_intro_img").addEventListener("click", ()=>{
+    lightbox_open()
+})
+
+document.getElementById("light").addEventListener("click", ()=>{
+    video.pause();
+})
+
+document.getElementById("fade").addEventListener("click", ()=>{
+    lightbox_close()
+})
+
+function lightbox_open() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    window.scrollTo(0, 0);
+    document.getElementById('light').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+    lightBoxVideo.play();
+}
+function lightbox_close() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    document.getElementById('light').style.display = 'none';
+    document.getElementById('fade').style.display = 'none';
+    lightBoxVideo.pause();
+}
