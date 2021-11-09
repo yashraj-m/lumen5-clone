@@ -10,10 +10,11 @@ body{
 .logo{
     margin-top: 2%;
 }
-.logo img{
+.logo a img{
     margin-top: -20px;
     width: 120px;
     max-height: 88px;
+    cursor: pointer;
 }
 
 ul {

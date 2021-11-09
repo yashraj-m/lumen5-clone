@@ -157,6 +157,21 @@ ul li::before{
     height: 10em;
 }
 
+#incorrect::before{
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+}
+
+#incorrect{
+    color: red;
+}
+
+.col-4 i {
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+}
+
 ul li{
     font-size:13px;
 }

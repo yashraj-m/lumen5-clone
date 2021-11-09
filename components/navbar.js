@@ -1,6 +1,6 @@
 function navbar(){
     return `<div class="logo">
-        <img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" />
+        <a href="./home.html"><img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" /></a>
     </div>
     <ul class="nav-links" id="menu">
         <li id="dropdown" ><a href="#">Create
