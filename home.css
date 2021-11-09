@@ -7,8 +7,7 @@
     display: flex;
     flex-direction: row;
     padding: 5% 0%;
-    top: 0;
-
+    top: 0
 }
 
 
@@ -20,6 +19,7 @@
     padding: 0% 20%;
     font-size: 5vh;
     margin-right: 2%;
+    margin-top: 120px !important;
 }
 
 .innerbold{
@@ -60,6 +60,8 @@
     outline: none !important;
     
 }
+
+
 
 .intro_img{
 
@@ -113,3 +115,33 @@
   }
 
   /* fade box (video play box)*/
+
+
+  @media only screen and (max-width: 768px){
+
+
+
+    .lumen_intro{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0% 0%;
+        margin-top: 8%;
+    
+    }
+
+    .inner_first{
+        width: 100%;
+    }
+
+    .inner_second{
+        width: 100%;
+    }
+
+
+    .inner_first{
+
+        margin: auto;
+    }
+  }

@@ -3,7 +3,13 @@ nav{
     justify-content: space-around;
     align-items: center;    
     font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    position:fixed;
 }
+
+
 
 .logo{
     margin-top: 2%;
@@ -69,14 +75,23 @@ span{
 @media screen and (max-width: 960px) {
     span{
         display: block;
+        
+    }
+
+    .nav-links{
+        background-color: whitesmoke;
+    }
+    nav{
+        margin-top: -50px
     }
     
-  ul {
-      display: none;
-  }
+    ul {
+        display: none;
+    }
 
     ul li{
         display: block;
+        
     }
 }
 
@@ -91,7 +106,7 @@ span{
     display: block;
     width: 240px;
     border: 1px solid black;
-    background-color: white;
+    background-color: whitesmoke
 }
 
 .nav-links li:hover .drop-down-menu ul li{
@@ -99,5 +114,5 @@ span{
 }
 
 .nav-links li:hover .drop-down-menu ul li:hover{
-    background-color: rgb(250, 250, 252, 1);
+    background-color: rgb(255, 255, 255);
 }

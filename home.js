@@ -64,6 +64,7 @@ document.getElementById("fade").addEventListener("click", ()=>{
     lightbox_close()
 })
 
+
 function lightbox_open() {
     var lightBoxVideo = document.getElementById("VisaChipCardVideo");
     window.scrollTo(0, 0);
@@ -76,4 +77,14 @@ function lightbox_close() {
     document.getElementById('light').style.display = 'none';
     document.getElementById('fade').style.display = 'none';
     lightBoxVideo.pause();
+}
+
+
+let myvideo = document.querySelectorAll(".video-card");
+
+for(var i = 0; i < myvideo.length; i++) {
+
+    myvideo[i].addEventListener("click", ()=> {
+        this.play();
+    })
 }
