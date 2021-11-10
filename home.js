@@ -27,6 +27,8 @@ function displaylist() {
     
 }
 
+
+
 let submenu = document.querySelector(".drop-down-menu");
 
 let dropdown = document.getElementById("dropdown")
@@ -39,7 +41,6 @@ dropdown.addEventListener("click", () => {
     else{
         submenu.style.display = "block";
         submenu.style.position = "absolute";
-        console.log("hii");
     }
 })
 
