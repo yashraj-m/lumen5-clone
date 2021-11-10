@@ -31,7 +31,7 @@ function navbar(){
         </div>
         </a>
         </li>
-        <li><a href="#">Pricing</a></li>
+        <li><a href="./pricing.html">Pricing</a></li>
         <li><a href="#">Enterprise</a></li>
         <li><a href="#">Case studies</a></li>
         <li><a href="#">Learn</a></li>

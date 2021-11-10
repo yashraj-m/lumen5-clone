@@ -1,0 +1,123 @@
+#navbar{
+    background-color:white !important;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .line1{
+    margin-top:50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.33;
+    font-size: 22px;
+}
+
+.container .line2{
+    margin-top:20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.33;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 35px;
+}
+
+.billtype{
+    text-align:center;
+    margin-top: 50px;
+}
+
+.billtype .btn{
+    border-radius: 50rem;
+    width: 120px;
+}
+
+.btn-outline-dark:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+.bro{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    margin: 10px;
+    width: 223px;
+    border: 1px solid #DDDEE6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.description {
+    font-size:12px;
+    font-weight:400;
+    min-height: 60px;
+}
+
+.price{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.price-container{
+    font-size:12px;
+    font-weight:400;
+    margin-bottom:30px;
+}
+
+.discount{
+    height: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight:600;
+    color: #5846F6;
+    margin-bottom: 25px;
+}
+
+.box .btn {
+    color: #5846F6;
+    border: 1px solid #5846F6;
+    border-radius: 50rem;
+}
+
+.box .btn:hover{
+    background-color: #5846F6;
+    color:white;
+}
+
+.highlight{
+    margin-top: 20px;
+}
+
+.highlight-content{
+    font-size: 13px;
+    font-weight:bold;
+}
+
+li{
+    display: flex;
+}
+
+li div{
+    font-size:12px;
+    margin-top: 10px;
+}
+
+li + li{
+    margin-top: -10px;
+}
+

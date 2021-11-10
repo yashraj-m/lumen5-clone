@@ -6,7 +6,6 @@ nav{
     background-color: whitesmoke;
     width: 100%;
     height: 100px;
-    position:fixed;
 }
 
 
@@ -44,7 +43,13 @@ li button{
     color: white !important;
 }
 
+.nav-links li{
+    margin-top: 50px !important;
+}
 
+.drop-down-menu li{
+    margin-top: 5px !important;
+}
 
 li{
     list-style: none;

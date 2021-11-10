@@ -1,6 +1,11 @@
 .main{
     background-color: whitesmoke !important;
 }
+
+nav{
+    position: fixed;
+}
+
 .lumen_intro{
 
     width: 100%;
