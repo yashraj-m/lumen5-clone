@@ -118,12 +118,21 @@ label{
     margin-left: 37%;
     color: rgb(143, 140, 140);
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
-#submit{
+#messagemain{
+    margin-bottom: 20px;
+    color: red;
+}
+
+#submit1,#submit{
     width: 510px;
     margin-left:10px;
     margin-bottom: 20px;
+    border-radius: 50rem;
+    background-color: #5846F6;
+    border-color: #5846F6;
 }
 
 hr{
@@ -197,8 +206,12 @@ ul li{
         width: 80% !important;
     }
 
-    #submit{
+    #submit1, #submit{
         width: 310px;
+    }
+
+    #togglePassword{
+        margin-left: 50px;
     }
 
     .login-form h2{
