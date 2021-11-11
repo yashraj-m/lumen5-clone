@@ -1,99 +1,433 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumen5 - Video Maker | Create Videos Online in Minutes </title>
     <link rel="icon" type="image/png" href="https://storage.googleapis.com/lumen5-site-images/favicon/favicon.ico">
-    <link rel="stylesheet" href="./navbar.css" >
+    <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" href="./pricing.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
 
     <!-- header -->
 
-        <nav id="navbar"></nav>
-  
-      <!-- header -->
+    <nav id="navbar"></nav>
 
-     <div class="container">
-         <div class="row justify-content-center text-center line1">PRICING</div>
-         <div class="row justify-content-center text-center line2">Plans for your video content creation strategy</div>
-     </div>
+    <!-- header -->
 
-     <div class="billtype">
-         <div class="btn btn-outline-dark">Bill Monthly</div>
-         <div class="btn btn-dark">Bill Yearly</div>
-     </div>
-
-     <div class="bro ">
-        <div>
-         <div >
-            <div class="box">
-                <div class="row title">Community</div>
-                <div class="row description">For casual video enthusiasts</div>
-                <div class="row price">$0</div>
-                <div class="row price-container">forever free</div>
-                <div class="row discount">Save 27%</div>
-                <div class="row">
-                    <div class="col-12 btn btn-outline">Try it free</div>
-                </div>
-            </div>
-            <div class="highlight">
-                <div class="highlight-content">What's included:</div>
-                <li>
-                    <i class="material-icons icon-l5 text-success p-1">check</i>
-                    <div>Unlimited videos</div>
-                </li>
-                <li>
-                    <i class="material-icons icon-l5 text-success p-1">check</i>
-                    <div>Contains Lumen5 watermark</div>
-                </li>
-                <li>
-                    <i class="material-icons icon-l5 text-success p-1">check</i>
-                    <div>720p video resolution</div>
-                </li>
-            </div>
-        </div>    
-     </div>
-     </div>
-     <div>
-        <div>
-            <div class="box">
-                <div class="row title">Community</div>
-                <div class="row description">For casual video enthusiasts</div>
-                <div class="row price">$0</div>
-                <div class="row price-container">forever free</div>
-                <div class="row discount">Save 27%</div>
-                <div class="row">
-                    <div class="col-12 btn btn-outline">Try it free</div>
-                </div>
-            </div>
-            <div class="highlight">
-                <div class="highlight-content">What's included:</div>
-                <li>
-                    <i class="material-icons icon-l5 text-success p-1">check</i>
-                    <div>Unlimited videos</div>
-                </li>
-                <li>
-                    <i class="material-icons icon-l5 text-success p-1">check</i>
-                    <div>Contains Lumen5 watermark</div>
-                </li>
-                <li>
-                    <i class="material-icons icon-l5 text-success p-1">check</i>
-                    <div>720p video resolution</div>
-                </li>
-            </div>
-        </div>    
+    <div class="container">
+        <div class="row justify-content-center text-center line1">PRICING</div>
+        <div class="row justify-content-center text-center line2">Plans for your video content creation strategy</div>
     </div>
- </div>
+
+    <div class="billtype">
+        <div class="btn btn-outline-dark" id="monthly">Bill Monthly</div>
+        <div class="btn btn-dark" id="yearly">Bill Yearly</div>
+    </div>
+    <div class="row">
+        <div class="dmonth">Up to 27% off</div>
+    </div>
+
+    <div class="act">
+        <!-- box1 -->
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Community</div>
+                <div class="row description">For casual video enthusiasts</div>
+                <div class="row price">
+                    <div class="col-3 first">$0</div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row price-container">forever free</div>
+                <div class="row discount" id="discount"></div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" id="blockname" >Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">What's included:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Contains Lumen5 watermark</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>720p video resolution</div>
+                </li>
+            </div>
+        </div>
+
+        <!-- box2 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Creator</div>
+                <div class="row description">For individual content creators</div>
+                <div class="row price">
+                    <div class="col-3 first" id="price1">$11</div>
+                    <div class="col-3">USD</div>
+                </div>
+                <div class="row price-container">per month, billed yearly</div>
+                <div class="row discount" id="discount">Save 27%</div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" id="changename" >Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Free, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>No Lumen5 branding</div>
+                </li>
+                
+            </div>
+        </div>
+
+        <!-- box3 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Premium</div>
+                <div class="row description">For professional video storytellers</div>
+                <div class="row price">
+                    <div class="col-4 first" id="price2">$59</div>
+                    <div class="col-3">USD</div>
+                </div>
+                <div class="row price-container">per month, billed yearly</div>
+                <div class="row discount" id="discount">Save 25%</div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" id="changename2" >Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Free, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>15M stock photos & videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Custom colors & styles</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>1080p video resolution</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Brand kits</div>
+                </li>
+            </div>
+        </div>
+
+        <!-- box4 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle active">POPULAR CHOICE</div>
+                <div class="row title">Business</div>
+                <div class="row description">For brands focused on reach and growth</div>
+                <div class="row price">
+                    <div class="col-5 first" id="price3">$149</div>
+                    <div class="col-3">USD</div>
+                </div>
+                <div class="row price-container">per month, billed yearly</div>
+                <div class="row discount" id="discount">Save 25%</div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline- active" id="changename3">Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Premium, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Shutterstock libraries</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Upload watermarks & font</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Multiple saved templates</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Ability to add more users</div>
+                </li>
+            </div>
+        </div>
+
+        <!-- box5 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Enterprise</div>
+                <div class="row description">For large-scale video teams</div>
+                <div class="row price">
+                    <div class="col-8 first">Custom</div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row price-container"></div>
+                <div class="row discount" id="discount"></div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" >Learn more</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Business, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Approvals & permissions</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Two-factor authentication</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Custom templates</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Dedicated account manager</div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- monthly -->
+
+    <div class="dact">
+        <!-- box1 -->
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Community</div>
+                <div class="row description">For casual video enthusiasts</div>
+                <div class="row price">
+                    <div class="col-3 first">$0</div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row price-container">forever free</div>
+                <div class="row discount" id="discount"></div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" id="blockname1" >Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">What's included:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Contains Lumen5 watermark</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>720p video resolution</div>
+                </li>
+            </div>
+        </div>
+
+        <!-- box2 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Creator</div>
+                <div class="row description">For individual content creators</div>
+                <div class="row price">
+                    <div class="col-3 first" id="price4">$15</div>
+                    <div class="col-3">USD</div>
+                </div>
+                <div class="row price-container">per month</div>
+                <div class="row discount" id="discount"></div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" id="changename4">Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Free, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>No Lumen5 branding</div>
+                </li>
+                
+            </div>
+        </div>
+
+        <!-- box3 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Premium</div>
+                <div class="row description">For professional video storytellers</div>
+                <div class="row price">
+                    <div class="col-4 first" id="price5" >$79</div>
+                    <div class="col-3">USD</div>
+                </div>
+                <div class="row price-container">per month</div>
+                <div class="row discount" id="discount"></div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" id="changename5" >Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Free, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>15M stock photos & videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Custom colors & styles</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>1080p video resolution</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Brand kits</div>
+                </li>
+            </div>
+        </div>
+
+        <!-- box4 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle active">POPULAR CHOICE</div>
+                <div class="row title">Business</div>
+                <div class="row description">For brands focused on reach and growth</div>
+                <div class="row price">
+                    <div class="col-5 first" id="price6">$199</div>
+                    <div class="col-3">USD</div>
+                </div>
+                <div class="row price-container">per month</div>
+                <div class="row discount" id="discount"></div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline active" id="changename6">Try it free</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Premium, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Shutterstock libraries</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Upload watermarks & font</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Multiple saved templates</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Ability to add more users</div>
+                </li>
+            </div>
+        </div>
+
+        <!-- box5 -->
+
+        <div>
+            <div class="box">
+                <div class="row abovetitle"></div>
+                <div class="row title">Enterprise</div>
+                <div class="row description">For large-scale video teams</div>
+                <div class="row price">
+                    <div class="col-8 first">Custom</div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row price-container"></div>
+                <div class="row discount" id="discount"></div>
+                <div class="row">
+                    <div class="col-12 btn btn-outline" >Learn more</div>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-content">Everything in Business, plus:</div>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Unlimited videos</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Approvals & permissions</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Two-factor authentication</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Custom templates</div>
+                </li>
+                <li>
+                    <i class="material-icons icon-l5 text-success p-1">check</i>
+                    <div>Dedicated account manager</div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
 
-<script type="module" src="home.js"  src="./pricing.js"  ></script>
+<script type="module" src="./pricing.js"></script>

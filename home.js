@@ -50,7 +50,9 @@ window.onresize = function(event) {
   document.location.reload(true);
 }
 
-
+if(localStorage.getItem("login") == "login") {
+    document.getElementById("btn1").innerHTML = "Log out"
+}
 
 
 document.getElementById("lumen_intro_img").addEventListener("click", ()=>{

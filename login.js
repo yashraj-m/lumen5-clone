@@ -41,6 +41,7 @@ document.getElementById("submit1").addEventListener("click",()=>{
     console.log('loginpassword:', loginpassword)
     myUsers.forEach((user)=>{
         if(user.useremail == loginemail && user.userpassword == loginpassword){
+            localStorage.setItem("login", "login")
             window.location.href = "home.html";
         }
     })

@@ -2,8 +2,12 @@
     background-color:white !important;
 }
 
+
+
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container .line1{
@@ -39,12 +43,31 @@
     color: black !important;
 }
 
-.bro{
+.act{
     display: flex;
     flex-direction: row;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top:4%;
+    flex-wrap: wrap;
 }
 
-.box{
+#yearly, #monthly{
+    margin-bottom: 10px;
+}
+
+.dmonth{
+    display:none
+}
+
+.dmonth{
+    margin-left: 50.5%;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #5846F6;
+}
+
+.box {
     margin: 10px;
     width: 223px;
     border: 1px solid #DDDEE6;
@@ -54,7 +77,29 @@
     padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
+}
 
+.dact{
+    display: none;
+}
+
+.abovetitle {
+    
+    border-radius: 50px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline;
+    height: 17.5px;
+    width:70%
+}
+
+.active{
+    background-color: #5846F6 !important;
+    color: #fff !important
 }
 
 .title {
@@ -71,12 +116,23 @@
 .price{
     font-size: 28px;
     font-weight: 600;
+    width: 100%;
+}
+
+.first{
+    margin-left: -15px !important
+}
+
+.first + .col-3{
+    font-size:15px !important;
+    margin-top: 13px;
 }
 
 .price-container{
     font-size:12px;
     font-weight:400;
     margin-bottom:30px;
+    height: 20px;
 }
 
 .discount{
@@ -97,6 +153,11 @@
 .box .btn:hover{
     background-color: #5846F6;
     color:white;
+}
+
+.btn-outline-active {
+    background-color: #5846F6 !important;
+    color:white !important;
 }
 
 .highlight{
