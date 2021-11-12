@@ -35,7 +35,7 @@ function navbar(){
         <li><a href="#">Enterprise</a></li>
         <li><a href="./casestudies.html">Case studies</a></li>
         <li><a href="#">Learn</a></li>
-        <li><a href="./login.html"><button type="button" class="btn btn-outline-primary " style="border-radius: 16px" id="btn1" >Login</button></a></li>
+        <li><button type="button" class="btn btn-outline-primary " style="border-radius: 16px" id="btn1" >Login</button></li>
         <li><a href="./signup.html"><button type="button" class="btn btn-primary" style="border-radius: 16px; margin-bottom:40px;" id="btn2">Sign up</button></a></li>
     </ul>
     <span id ="spanclick">&#9776</span>`

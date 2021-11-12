@@ -51,6 +51,28 @@ window.onresize = function(event) {
 }
 
 if(localStorage.getItem("login") == "login") {
+    document.getElementById("btn1").innerHTML = "Log out"; 
+}
+
+document.getElementById("btn1").addEventListener("click", ()=> {
+    if(localStorage.getItem("login") == "login") {
+        document.getElementById("btn1").innerHTML = "Log out";
+        localStorage.removeItem("login");
+        let goto = localStorage.getItem("location")
+        window.location.href = goto;
+    }else{
+        window.location.href = "login.html";
+    }
+})
+
+
+if(localStorage.getItem("location") != null) {
+    localStorage.setItem("location" , "./home.html")
+}else{
+    localStorage.setItem("location" , "./home.html")
+}
+
+if(localStorage.getItem("login") == "login") {
     document.getElementById("btn1").innerHTML = "Log out"
 }
 

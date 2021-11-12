@@ -67,6 +67,11 @@
     color: #5846F6;
 }
 
+#btn1{
+    height: 37px;
+    width: 80px;
+}
+
 .box {
     margin: 10px;
     width: 223px;
@@ -80,6 +85,7 @@
 }
 
 .dact{
+    flex-wrap: wrap;
     display: none;
 }
 

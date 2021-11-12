@@ -41,12 +41,13 @@ document.getElementById("submit1").addEventListener("click",()=>{
     console.log('loginpassword:', loginpassword)
     myUsers.forEach((user)=>{
         if(user.useremail == loginemail && user.userpassword == loginpassword){
-            localStorage.setItem("login", "login")
-            window.location.href = "home.html";
+            localStorage.setItem("login", "login");
+            let goto = localStorage.getItem("location")
+            window.location.href = goto;
         }
     })
 
     setTimeout(()=>{
         document.getElementById('messagemain').innerHTML = "Enter correct email or password"
-    },3000)
+    },2000)
 })
