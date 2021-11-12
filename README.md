@@ -51,6 +51,7 @@ First you have to have to go to the signup page and create a new account. After 
 
 ![Home Page](https://github.com/yashraj-m/lumen5-clone/blob/main/screenshots/homepage_1.png?raw=true)
 ![Home Page](https://github.com/yashraj-m/lumen5-clone/blob/main/screenshots/homepage_2.png?raw=true)
+![Home Page](https://github.com/yashraj-m/lumen5-clone/blob/main/screenshots/homepage-footer.png?raw=true)
 
 
 
