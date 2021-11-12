@@ -45,6 +45,8 @@ document.getElementById("subscribe").addEventListener("click", ()=>{
     }
     if(errors.length > 0){
         alert(errors.join("\n"));
+    }else{
+        window.location.href ="./payment_processing.html"
     }
 })
 
